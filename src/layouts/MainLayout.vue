@@ -7,7 +7,7 @@
       <slot name="header" />
     </header>
 
-    <main class="flex-1">
+    <main class="flex-1 mx-auto w-full max-w-[1300px] px-4 md:px-5 py-4 md:py-10">
       <slot />
     </main>
 

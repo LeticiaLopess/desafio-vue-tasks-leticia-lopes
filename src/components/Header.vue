@@ -1,27 +1,39 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, inject } from 'vue'
 import IconAwesome from './IconAwesome.vue'
+import vueLogo from '@/assets/images/vue-logo-neutral.png'
 
 const mobileMenuOpen = ref(false)
+const openTaskModal = inject('openTaskModal') 
 
 const toggleMobileMenu = () => {
     mobileMenuOpen.value = !mobileMenuOpen.value
+}
+
+const handleOpenTaskModal = () => {
+    if (openTaskModal) {
+        openTaskModal()
+    }
+    mobileMenuOpen.value = false
 }
 </script>
 
 <template>
     <header class="bg-light-100 border-b border-light-200 sticky top-0 z-50">
-        <div class="container mx-auto">
+        <div class="container mx-auto max-w-[1300px]">
             <div class="flex items-center justify-between h-16 px-4">
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                        <IconAwesome icon-name="check-double" color="#ffffff" size="20px" />
+                        <img :src="vueLogo" alt="Vue logo" class="w-5 h-5 invert brightness-1" />
                     </div>
                     <h1 class="text-2xl font-bold text-cloudy">Vue Tasks</h1>
                 </div>
 
                 <div class="hidden md:flex items-center gap-3">
-                    <button class="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary-600 transition-colors font-medium flex items-center gap-2 cursor-pointer">
+                    <button 
+                        @click="handleOpenTaskModal"
+                        class="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary-600 transition-colors font-medium flex items-center gap-2 cursor-pointer"
+                    >
                         <IconAwesome icon-name="plus" color="#ffffff" size="16px" />
                         Nova Tarefa
                     </button>
@@ -51,7 +63,10 @@ const toggleMobileMenu = () => {
                     class="md:hidden py-4 border-t border-light-500"
                 >
                     <div class="px-4">
-                        <button class="w-full px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary-600 transition-colors font-medium flex items-center justify-center gap-2 cursor-pointer">
+                        <button 
+                            @click="handleOpenTaskModal"
+                            class="w-full px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary-600 transition-colors font-medium flex items-center justify-center gap-2 cursor-pointer"
+                        >
                             <IconAwesome icon-name="plus" color="#ffffff" size="16px" />
                             Nova Tarefa
                         </button>

@@ -1,0 +1,68 @@
+{
+  "tasks": [
+    {
+      "id": "a1b2",
+      "title": "Criar estrutura inicial do projeto",
+      "description": "Configurar ambiente Vue com Pinia e Tailwind para iniciar o desenvolvimento.",
+      "is_completed": false,
+      "created_at": "2025-10-25T10:00:00Z",
+      "updated_at": "2025-10-29T04:22:59.744Z"
+    },
+    {
+      "id": "c3d4",
+      "title": "Implementar CRUD de tarefas",
+      "description": "Desenvolver as funções para adicionar, editar, remover e listar tarefas.",
+      "is_completed": true,
+      "created_at": "2025-10-25T11:15:00Z",
+      "updated_at": "2025-10-29T04:22:39.980Z"
+    },
+    {
+      "id": "e5f6",
+      "title": "Adicionar feedback visual",
+      "description": "Exibir mensagens de sucesso e erro com toasts ao realizar ações nas tarefas.",
+      "is_completed": true,
+      "created_at": "2025-10-25T13:40:00Z",
+      "updated_at": "2025-10-29T04:22:53.858Z"
+    },
+    {
+      "id": "g7h8",
+      "title": "Criar filtros de status",
+      "description": "Permitir filtrar tarefas entre todas, concluídas e pendentes.",
+      "is_completed": true,
+      "created_at": "2025-10-25T15:20:00Z",
+      "updated_at": "2025-10-29T03:35:00Z"
+    },
+    {
+      "id": "i9j0",
+      "title": "Ajustar responsividade da interface",
+      "description": "Garantir que o layout funcione corretamente em telas pequenas e grandes.",
+      "is_completed": false,
+      "created_at": "2025-10-25T16:00:00Z",
+      "updated_at": "2025-10-29T04:29:42.699Z"
+    },
+    {
+      "id": "k1l2",
+      "title": "Melhorar experiência do usuário",
+      "description": "Ajustar espaçamentos, botões e cores para uma interface mais agradável.",
+      "is_completed": false,
+      "created_at": "2025-10-25T17:10:00Z",
+      "updated_at": "2025-10-29T04:22:54.912Z"
+    },
+    {
+      "id": "m3n4",
+      "title": "Testar persistência de dados",
+      "description": "Verificar se as tarefas estão sendo salvas corretamente no JSON Server.",
+      "is_completed": true,
+      "created_at": "2025-10-25T18:00:00Z",
+      "updated_at": "2025-10-29T04:22:47.276Z"
+    },
+    {
+      "id": "o5p6",
+      "title": "Revisar código e organização",
+      "description": "Garantir boas práticas e limpeza de código antes da entrega.",
+      "is_completed": false,
+      "created_at": "2025-10-25T19:00:00Z",
+      "updated_at": "2025-10-29T04:22:50.630Z"
+    }
+  ]
+}

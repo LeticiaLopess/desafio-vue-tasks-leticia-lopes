@@ -1,2 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
 @config "../../tailwind.config.js";
+
+
+body {
+  font-family: 'Figtree', sans-serif;
+  color: #04080a;
+}
+
+.v-toast,
+.v-toast--top {
+    top: auto !important;
+    right: 18px !important;
+    bottom: 12px !important;
+}
+
+@media (min-width: 769px) {
+    .v-toast,
+    .v-toast--top {
+        top: 35px !important;
+        right: -24px !important;
+        bottom: auto !important;
+    }
+}
