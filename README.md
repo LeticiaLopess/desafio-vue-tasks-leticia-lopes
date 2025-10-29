@@ -29,7 +29,7 @@ Um sistema moderno e responsivo para gerenciamento de tarefas, desenvolvido com 
 ### Pré-requisitos
 
 - [Node.js](https://nodejs.org/)
-- npm (incluso no Node.js) ou [yarn](https://yarnpkg.com/)
+- npm (incluso no Node.js)
 - [Git](https://git-scm.com/)
 
 ### Passos para rodar o projeto
@@ -112,7 +112,7 @@ src/
  │   ├─ IconAwesome.vue  # Componente wrapper para ícones Font Awesome
  │   ├─ Input.vue        # Campo de entrada de texto customizado
  │   ├─ Modal.vue        # Modal reutilizável para diálogos e formulários
- │   ├─ Table.vue        # Tabela para exibição de tarefas
+ │   ├─ Table.vue        # Tabela dinâmica genérica
  │   └─ Textarea.vue     # Área de texto para descrições longas
  │
  ├─ layouts/             # Estruturas de layout
