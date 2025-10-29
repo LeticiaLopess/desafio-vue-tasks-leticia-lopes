@@ -36,17 +36,17 @@
       "id": "i9j0",
       "title": "Ajustar responsividade da interface",
       "description": "Garantir que o layout funcione corretamente em telas pequenas e grandes.",
-      "is_completed": false,
+      "is_completed": true,
       "created_at": "2025-10-25T16:00:00Z",
-      "updated_at": "2025-10-29T04:29:42.699Z"
+      "updated_at": "2025-10-29T14:29:08.175Z"
     },
     {
       "id": "k1l2",
       "title": "Melhorar experiência do usuário",
       "description": "Ajustar espaçamentos, botões e cores para uma interface mais agradável.",
-      "is_completed": false,
+      "is_completed": true,
       "created_at": "2025-10-25T17:10:00Z",
-      "updated_at": "2025-10-29T04:22:54.912Z"
+      "updated_at": "2025-10-29T14:29:05.149Z"
     },
     {
       "id": "m3n4",
@@ -60,9 +60,9 @@
       "id": "o5p6",
       "title": "Revisar código e organização",
       "description": "Garantir boas práticas e limpeza de código antes da entrega.",
-      "is_completed": false,
+      "is_completed": true,
       "created_at": "2025-10-25T19:00:00Z",
-      "updated_at": "2025-10-29T04:22:50.630Z"
+      "updated_at": "2025-10-29T14:29:02.850Z"
     }
   ]
 }

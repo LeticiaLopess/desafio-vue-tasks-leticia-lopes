@@ -38,7 +38,7 @@ Um sistema moderno e responsivo para gerenciamento de tarefas, desenvolvido com 
 
 ```bash
 git clone https://github.com/LeticiaLopess/desafio-vue-tasks-leticia-lopes.git
-cd vue-tasks
+cd desafio-vue-tasks-leticia-lopes
 ```
 
 **2. Instale as dependências**
@@ -55,29 +55,31 @@ Crie um arquivo `.env` na raiz do projeto:
 VITE_API_URL=http://localhost:3000
 ```
 
-**4. Inicie o servidor JSON**
+**4. Inicie o projeto**
 
-Em um terminal, execute:
-
-```bash
-npx json-server --watch db.json --port 3000
-```
-
-**5. Inicie a aplicação Vue**
-
-Em outro terminal, execute:
-
-```bash
-npm run dev
-```
-
-**Ou rode tudo junto:**
+**Opção recomendada - Rodar tudo junto:**
 
 ```bash
 npm run dev:full
 ```
 
-**6. Acesse a aplicação**
+Este comando inicia automaticamente o JSON Server e a aplicação Vue simultaneamente.
+
+**Alternativa - Rodar separadamente:**
+
+Se preferir rodar em terminais separados:
+
+Terminal 1 - JSON Server:
+```bash
+npx json-server --watch db.json --port 3000
+```
+
+Terminal 2 - Aplicação Vue:
+```bash
+npm run dev
+```
+
+**5. Acesse a aplicação**
 
 Abra seu navegador em: **http://localhost:5173**
 
